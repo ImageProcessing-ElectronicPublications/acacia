@@ -25,24 +25,24 @@ CONFIG  += console
 TEMPLATE = app
 
 SOURCES += \
-    main.cpp \
-    mainwindow.cpp \
-    imagebox.cpp \
-    featureextractor.cpp \
-    optimizer.cpp \
-    encoder.cpp
+    src/main.cpp \
+    src/mainwindow.cpp \
+    src/imagebox.cpp \
+    src/featureextractor.cpp \
+    src/optimizer.cpp \
+    src/encoder.cpp
 
 HEADERS += \
-    mainwindow.h \
-    imagebox.h \
-    featureextractor.h \
-    optimizer.h \
-    jpegmodels.h \
-    webpmodels.h \
-    encoder.h
+    src/mainwindow.h \
+    src/imagebox.h \
+    src/featureextractor.h \
+    src/optimizer.h \
+    src/jpegmodels.h \
+    src/webpmodels.h \
+    src/encoder.h
 
 FORMS += \
-    mainwindow.ui
+    src/mainwindow.ui
 
 # To allow constant class members and nullptr
 QMAKE_CXXFLAGS += -std=c++11
